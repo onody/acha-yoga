@@ -1,11 +1,116 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga by Acha - Sayaka Onodera</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- OGP Tags -->
+    <meta property="og:title" content="Yoga by Acha - Sayaka Onodera">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://acha-yoga.jp/">
+    <meta property="og:image" content="https://acha-yoga.jp/images/ogp-image.jpg">
+    <meta property="og:description" content="関節リウマチのヨガインストラクター小野寺 沙弥香のヨガ教室『Yoga by Acha』の公式サイトです。持病があっても適度な運動を取り入れた生活をサポートします。">
+    <meta property="og:site_name" content="Yoga by Acha">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yoga by Acha - Sayaka Onodera">
+    <meta name="twitter:description" content="関節リウマチのヨガインストラクター小野寺 沙弥香のヨガ教室『Yoga by Acha』の公式サイトです。持病があっても適度な運動を取り入れた生活をサポートします。">
+    <meta name="twitter:image" content="https://acha-yoga.jp/images/ogp-image.jpg">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            /* background: url('https://source.unsplash.com/1600x900/?yoga') no-repeat center center; */
+            background-color: #ee7800;
+            background-size: cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Yoga by Acha</h1>
+        <p>関節リウマチのヨガインストラクター</p>
+    </header>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>教室について</h2>
+                    <p>教室の名前は「Yoga by Acha」です。Achaとはヒンディー語で主に「good」という意味合いがあります。とても多様に使われる言葉で、「いいね！」や「cool」や相槌など様々です。「かっこよく、クールに、いいね！って思える人生を生きたい」という意味を込めてこの名前にしました。ヨガの哲学にはachaがいっぱい詰まっています。みなさまもAcha な人生を過ごせますように。</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>私について</h2>
+                    <p>私は持病の関節リウマチがあります。運動が大切なことはわかるけど、持病があると難しいから諦めてしまいがちだと思います。今までの自分を振り返ると、全く運動しないでダラダラ、そんな中病気になり「運動はできないな」と勝手に決めつけていました。運動できないなんて誰が言ったのか、お医者さんがやらない方がいいと言うなら無理はしてはいけませんが、私は言われた覚えがありません。なんなら適度な運動をしましょうと。そんな自分で決めた「許容範囲」、その外は怖いけど、乗り越えたらそれは怖くない、安心なものに変わります。運動全くしていない方、持病がある方、様々な方に適度な運動を取り入れてほしいという気持ちでいます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="prices" class="section bg-light">
+        <div class="container">
+            <h2>料金について</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>吉田町教室</h3>
+                    <ul>
+                        <li>初回体験：500円</li>
+                        <li>一回ドロップイン：1,500円</li>
+                        <li>チケット：4回5000円（無期限）</li>
+                        <li>時間：不定期</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>東京教室</h3>
+                    <ul>
+                        <li>初回体験：1000円</li>
+                        <li>一回ドロップイン：2000円</li>
+                        <li>チケットコース（半年）：4回7000円</li>
+                        <li>時間：1回90分、9:30〜10:30、11:00〜12:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="disclaimer" class="section">
+        <div class="container">
+            <h2>免責事項</h2>
+            <p>宗教団体との関連はございません。あらゆる宗教勧誘など一切お断りしています。</p>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Yoga by Acha. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
 </html>
