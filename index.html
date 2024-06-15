@@ -25,7 +25,6 @@
 
     <style>
         body {
-          /* font-family: Arial, sans-serif; */
           font-family: "PT Serif", serif;
         }
         .hero {
@@ -54,77 +53,100 @@
           padding: 20px 0;
           text-align: center;
         }
+        .mask {
+          clip-path: url(#svgClip);
+          object-fit: cover;
+          display: block;
+        }
     </style>
 </head>
 <body>
-    <header class="hero">
-        <h1>Yoga by Acha</h1>
-        <p>関節リウマチのヨガインストラクター</p>
-    </header>
+  <svg width="0" height="0">
+    <clipPath id="svgClip" clipPathUnits="objectBoundingBox">
+      <path d="M0.75815095,0.0579477769 C0.879893708,0.187288937 0.902165272,0.677587654 0.799370955,0.785996249 C0.627963035,0.966765889 0.26163708,0.91434951 0.111342491,0.755791573 C-0.0332137967,0.603287436 -0.035795248,0.382887577 0.0965066612,0.173955315 C0.200239457,0.0101396315 0.648923894,-0.0580965318 0.75815095,0.0579477769 Z"></path>
+    </clipPath>
+  </svg>
+  
+  <header class="hero">
+      <h1>Yoga by Acha</h1>
+      <p>Living positive</p>
+  </header>
     
-    <section id="about" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./images/ogp-image.jpg" alt="Sayaka Onodera" width="100%" />
-                </div>
-                <div class="col-md-6">
-                    <h2>私について</h2>
-                    <p>私は持病の関節リウマチがあります。運動が大切なことはわかるけど、持病があると難しいから諦めてしまいがちだと思います。今までの自分を振り返ると、全く運動しないでダラダラ、そんな中病気になり「運動はできないな」と勝手に決めつけていました。運動できないなんて誰が言ったのか、お医者さんがやらない方がいいと言うなら無理はしてはいけませんが、私は言われた覚えがありません。なんなら適度な運動をしましょうと。そんな自分で決めた「許容範囲」、その外は怖いけど、乗り越えたらそれは怖くない、安心なものに変わります。運動全くしていない方、持病がある方、様々な方に適度な運動を取り入れてほしいという気持ちでいます。</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-          <div class="row">
+  <section id="about" class="section">
+      <div class="container">
+          <div class="row g-2">
               <div class="col-md-6">
-                  <h2>教室について</h2>
-                  <p>教室の名前は「Yoga by Acha」です。Achaとはヒンディー語で主に「good」という意味合いがあります。とても多様に使われる言葉で、「いいね！」や「cool」や相槌など様々です。「かっこよく、クールに、いいね！って思える人生を生きたい」という意味を込めてこの名前にしました。ヨガの哲学にはachaがいっぱい詰まっています。みなさまもAcha な人生を過ごせますように。</p>
+                <div class="p-3">
+                  <img src="./images/ogp-image.jpg" alt="Sayaka Onodera" width="100%" class="mask" />
+                </div>
               </div>
               <div class="col-md-6">
-                <img src="./images/ogp-image.jpg" alt="Sayaka Onodera" width="100%" />
+                <div class="p-3">
+                  <h2>私について</h2>
+                  <p>私は持病の関節リウマチがあります。運動が大切なことはわかるけど、持病があると難しいから諦めてしまいがちだと思います。今までの自分を振り返ると、全く運動しないでダラダラ、そんな中病気になり「運動はできないな」と勝手に決めつけていました。運動できないなんて誰が言ったのか、お医者さんがやらない方がいいと言うなら無理はしてはいけませんが、私は言われた覚えがありません。なんなら適度な運動をしましょうと。そんな自分で決めた「許容範囲」、その外は怖いけど、乗り越えたらそれは怖くない、安心なものに変わります。運動全くしていない方、持病がある方、様々な方に適度な運動を取り入れてほしいという気持ちでいます。</p>
+                </div>
               </div>
           </div>
       </div>
-    </section>
-    
-    <section id="prices" class="section bg-light">
-        <div class="container">
-            <h2>料金について</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>吉田町教室</h3>
-                    <ul>
-                        <li>初回体験：500円</li>
-                        <li>一回ドロップイン：1,500円</li>
-                        <li>チケット：4回5000円（無期限）</li>
-                        <li>時間：不定期</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h3>東京教室</h3>
-                    <ul>
-                        <li>初回体験：1000円</li>
-                        <li>一回ドロップイン：2000円</li>
-                        <li>チケットコース（半年）：4回7000円</li>
-                        <li>時間：1回90分、9:30〜10:30、11:00〜12:00</li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="row g-2">
+            <div class="col-md-6">
+              <div class="p-3">
+                <h2>教室について</h2>
+                <p>教室の名前は「Yoga by Acha」です。Achaとはヒンディー語で主に「good」という意味合いがあります。とても多様に使われる言葉で、「いいね！」や「cool」や相槌など様々です。「かっこよく、クールに、いいね！って思える人生を生きたい」という意味を込めてこの名前にしました。ヨガの哲学にはachaがいっぱい詰まっています。みなさまもAcha な人生を過ごせますように。</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3">
+                <img src="./images/ogp-image.jpg" alt="Sayaka Onodera" width="100%" class="mask" />
+              </div>
             </div>
         </div>
-    </section>
-    
-    <section id="disclaimer" class="section">
-        <div class="container">
-            <h2>免責事項</h2>
-            <p>宗教団体との関連はございません。あらゆる宗教勧誘など一切お断りしています。</p>
-        </div>
-    </section>
-    
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Yoga by Acha. All Rights Reserved.</p>
-        </div>
-    </footer>
+    </div>
+  </section>
+  
+  <section id="prices" class="section bg-light">
+      <div class="container">
+          <h2>料金について</h2>
+          <div class="row g-2">
+              <div class="col-md-6">
+                <div class="p-3">
+                  <h3>吉田町教室</h3>
+                  <ul>
+                      <li>初回体験：500円</li>
+                      <li>一回ドロップイン：1,500円</li>
+                      <li>チケット：4回5000円（無期限）</li>
+                      <li>時間：不定期</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3">
+                  <h3>東京教室</h3>
+                  <ul>
+                      <li>初回体験：1000円</li>
+                      <li>一回ドロップイン：2000円</li>
+                      <li>チケットコース（半年）：4回7000円</li>
+                      <li>時間：1回90分、9:30〜10:30、11:00〜12:00</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <section id="disclaimer" class="section">
+      <div class="container">
+          <h2>免責事項</h2>
+          <p>宗教団体との関連はございません。あらゆる宗教勧誘など一切お断りしています。</p>
+      </div>
+  </section>
+  
+  <footer class="footer">
+      <div class="container">
+          <p>&copy; 2024 Yoga by Acha. All Rights Reserved.</p>
+      </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
